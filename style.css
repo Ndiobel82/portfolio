@@ -423,7 +423,7 @@ button:focus-visible {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
   .skills-grid {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
@@ -864,6 +864,7 @@ button:focus-visible {
   }
 
   .skills-grid {
+    grid-template-columns: 1fr !important;
     gap: 0.72rem;
   }
 
